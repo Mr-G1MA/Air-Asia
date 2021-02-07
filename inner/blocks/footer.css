@@ -1,0 +1,27 @@
+.footer{
+  height: 146px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__container{
+  margin-top: auto;
+}
+
+.footer__col{
+  display:flex;
+  align-items: center;
+}
+
+.footer__col-right{
+  justify-content: flex-end;
+}
+
+.footer__logo{
+  display: block;
+  margin-right: 79px;
+}
+
+
+

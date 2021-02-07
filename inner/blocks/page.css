@@ -1,0 +1,37 @@
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.page__list{
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.page__info{
+  margin-right: 25px;
+}
+
+.page__link{
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.page__item-active .page__link{
+  color: #F5170E;
+}
+
+.page__link:hover{
+  background:#F5170E;
+  color: #fff;
+}

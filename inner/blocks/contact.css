@@ -1,0 +1,22 @@
+.contact{
+  font-style: normal;
+  text-align: right;
+}
+
+.contact__phone{
+  text-decoration: none;
+  font-size: 26px;
+  
+}
+
+.contact__info{
+  font-size: 13px;
+  text-decoration: underline;
+  margin-top:-7px;
+}
+
+.contact__text{
+  font-size:11px;
+  color:#9A9A9A;
+  text-align: right;
+}
