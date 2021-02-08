@@ -1,11 +1,12 @@
 .services-content{
-  background:#F2F2F2;
+  background:#fff;
   color:#303030;
-  padding: 92px;
+  padding: 92px 0;
 }
 
 .services{
   margin-top: 4px;
+  margin-bottom: 64px;
 }
 
 .service{
@@ -14,7 +15,7 @@
 }
 
 .service:last-child{
-  margin-bottom: 64px;
+  margin-bottom: 0px;
 }
 
 .service__img{
@@ -43,7 +44,7 @@
 }
 
 .service__button{
-  background: #F2F2F2;
+  background: #fff;
   border-radius: 35px;
   padding: 18px 38px;
   color:#F5170E;
@@ -56,6 +57,6 @@
 }
 
 .service__button:hover{
-  color:#F2F2F2;
+  color:#fff;
   background: #F5170E;
 }

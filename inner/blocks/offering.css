@@ -67,11 +67,12 @@
   margin-bottom: 23px;
   display: flex;
   justify-content: flex-start;
-  
+  align-items: center;
 }
 
 .offering__feature{
   display: flex;
+  
   justify-content: space-between;
   width:40%;
   font-size: 16px;

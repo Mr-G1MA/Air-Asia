@@ -1,5 +1,10 @@
+.footer__container-content{
+  border-top: 1px solid rgba(255,255,255,.1) ;
+  
+}
+
 .footer{
-  height: 146px;
+  padding: 46px 0;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +27,8 @@
   display: block;
   margin-right: 79px;
 }
+
+
 
 
 

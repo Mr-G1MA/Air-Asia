@@ -17,10 +17,10 @@
   margin-left:-136px;
   margin-top:97px;
   display: block;
-  max-width:785px;
+  min-width:785px;
   min-height:455px;
   color:black;
-  padding: 70px 203px 70px 81px;
+  padding: 70px 204px 70px 81px;
   border-radius: 5px;
   background: url(../images/lake.jfif) center center / cover no-repeat
 }
