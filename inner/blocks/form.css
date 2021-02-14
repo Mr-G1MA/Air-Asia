@@ -25,6 +25,11 @@
   resize: none;
 }
 
+.form__input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
 .controls__elem{
   cursor: pointer;
 }
