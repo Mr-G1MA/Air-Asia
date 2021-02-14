@@ -53,4 +53,5 @@
 .about__button:hover{
   background: #DA0100;
   box-shadow: 0 0 4px 0 rgba(218, 1, 0, 0.3);
+  transition: 0.3s;
 }

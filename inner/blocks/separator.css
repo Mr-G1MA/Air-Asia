@@ -1,0 +1,29 @@
+.separator{
+  background: url(../images/separator.jfif) center center no-repeat;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+}
+
+.separator__content{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.separator__title{
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: bold;
+  margin-right: 25px;
+  max-width: 52%;
+}
+
+.separator__content:after{
+  content: url(../images/couple.png);
+  margin-top: 0;
+  position: absolute;
+  right: 3%;
+  bottom: -92%;
+}
+

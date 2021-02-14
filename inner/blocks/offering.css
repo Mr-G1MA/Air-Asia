@@ -117,4 +117,5 @@
 .offering__button:hover{
   color:#fff;
   background: #F5170E;
+  transition: 0.3s;
 }

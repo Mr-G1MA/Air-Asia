@@ -13,10 +13,68 @@
   font-size: 13px;
   text-decoration: underline;
   margin-top:-7px;
+  position: relative;
 }
 
 .contact__text{
   font-size:11px;
   color:#9A9A9A;
   text-align: right;
+}
+
+.contact__menu{
+  position: absolute;
+  background: #EDEDED;
+  color: #1E1F20;
+  border-radius: 4px;
+  width: 160px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  top:100%;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity .4s;
+  line-height: 21px;
+  right: -9999px;
+}
+
+.contact__menu:before{
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  width:0;
+  height:0;
+  border-bottom-color: #EDEDED;
+  border-top-width: 0;
+  border-right-width: 16.6px;
+  border-left-width: 16.6px;
+  top:-15%;
+  left: 58%;
+}
+
+.contact__menu:after{
+  content: "";
+  display:block;
+  height:12px;
+  left: 0;
+  right: 0;
+  top: -12px;
+  position: absolute;
+}
+
+.contact__info:hover .contact__menu{
+  right:0;
+  opacity:0.8;
+}
+
+.contact__item{
+  font-weight: 600;
+}
+
+.contact__item-bold{
+  font-weight: bold;
 }

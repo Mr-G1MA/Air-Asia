@@ -34,4 +34,5 @@
 .page__link:hover{
   background:#F5170E;
   color: #fff;
+  transition: 0.3s;
 }

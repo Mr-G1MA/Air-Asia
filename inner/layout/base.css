@@ -24,6 +24,11 @@ body {
   background: url(../images/back-top.jfif) center top no-repeat, url(../images/back-bot.jfif) center bottom 165px no-repeat;
 }
 
+button{
+  cursor: pointer;
+  background: transparent;
+}
+
 img{
   display: block;
   max-width: 100%;
